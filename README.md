@@ -18,9 +18,10 @@ Implantar un servicio de resolución de nombres para el dominio de laboratorio e
   
 ## Topología del laboratorio
 
-Equipo	Función	Dirección
-Ubuntu Server	Servidor DNS (ns1.ejemplo.prueba)	172.16.0.1/24
-Ubuntu Desktop	Cliente (pc1.ejemplo.prueba)	172.16.0.66/24
+| Equipo | Función | Dirección IP |
+|---|---|---|
+| Ubuntu Server | Servidor DNS (`ns1.ejemplo.prueba`) | `172.16.0.1/24` |
+| Ubuntu Desktop | Cliente (`pc1.ejemplo.prueba`) | `172.16.0.66/24` |
 
 Ambos equipos utilizan una red interna de VirtualBox. El servidor dispone además de una interfaz NAT para conectividad externa durante la instalación.
 
